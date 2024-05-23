@@ -5,4 +5,4 @@ from django.http import HttpResponse
 
 def blog(request):
   print('blog')
-  return HttpResponse('blog do app')
+  return HttpResponse('blog do app1')
