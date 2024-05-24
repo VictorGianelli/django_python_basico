@@ -1,0 +1,4 @@
+venv
+storage_pet_shop
+**/__pycache__
+.pytest_cache

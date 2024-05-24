@@ -20,7 +20,8 @@ from home import views as home_views
 from blog import views as blog_views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
     path('', home_views.home),
+    path('admin/', admin.site.urls),
     path('blog/', blog_views.blog),
+    path('blog/exemplo/', blog_views.exemplo),
 ]
